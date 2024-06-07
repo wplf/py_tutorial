@@ -1,0 +1,11 @@
+# PyInstaller
+# 通常用于打包 Python 应用
+# Byte-compiled files
+*.pyc
+# Cache files
+__pycache__/
+# PyInstaller configuration files
+*.spec
+# PyInstaller bundles the Python interpreter and libraries
+*.manifest
+*.mf
