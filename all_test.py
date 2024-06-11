@@ -1,10 +1,16 @@
 import pytest
-from day_1 import create_array
-
+import random 
+from all_task import create_array, lookup_num
 
 @pytest.mark.parametrize("param1", [i for i in range(10)])
 def test_create_array(param1):
-    result = create_array(param1)
-    assert len(result) == 10, "数组长度应该是 10"
-    for index, value in enumerate(result):
-        assert index * param1  ==  value, f"索引 {index} 的值应该是 {index}，但实际是 {value}"
+    assert create_array(param1) == [x * param1 for x in range(10)]
+
+
+@pytest.mark.parametrize( 
+    "nums, target", [
+        ([i for i in range(100)], random.randint(0, 99)) for _ in range(10)
+    ]
+)
+def test_lookup_num(nums, target):
+    assert lookup_num(nums, target) == [i for i, x in enumerate(nums) if x == target]
