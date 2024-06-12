@@ -74,7 +74,7 @@ pytest all_test.py::test_lookup_num
 pytest all_test.py::test_plot_from_excel
 ```
 
-![image-20240612193611054](C:\Users\think\Desktop\py_tutorial\images\grade-plot.png)
+![image-20240612193611054](./images/grade-plot.png)
 
 
 
