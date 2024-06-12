@@ -4,7 +4,7 @@
 
 ## Day 1 创建列表
 
-创建长度为10的数组，传入参数 i， 返回长度为 5 的数组，其中每个值为 i * index 
+创建长度为10的数组，传入参数 i， 返回长度为 10 的数组，其中每个值为 i * index 
 
 ```python
 # 样例1：
@@ -42,9 +42,39 @@ pytest all_test.py::test_create_array
 输出：[1, 4]
 ```
 
+**测试命令**
+
+```
+pytest all_test.py::test_lookup_num
+```
 
 
-## 
+
+## Day3
+
+使用 `pandas`读取 excel 文件， 并使用 matplotlib 画出折线图，其中 横坐标为 name， 纵坐标为 grade。
+
+
+| ID  | Name    | Grade |
+|-----|---------|-------|
+|  1  | Alice   |  90   |
+|  2  | Bob     |  85   |
+|  3  | Charlie |  88   |
+|  4  | Diana   |  92   |
+|  5  | Edward  |  87   |
+|  6  | Frank   |  80   |
+|  7  | Grace   |  95   |
+|  8  | Hank    |  78   |
+|  9  | Ivy     |  83   |
+| 10  | Jack    |  89   |
+
+测试命令
+
+```bash
+pytest all_test.py::test_plot_from_excel
+```
+
+![image-20240612193611054](C:\Users\think\Desktop\py_tutorial\images\grade-plot.png)
 
 
 
