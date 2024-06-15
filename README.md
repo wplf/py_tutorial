@@ -1,7 +1,5 @@
 # PY_tutorial
 
-
-
 ## Day 1 创建列表
 
 创建长度为10的数组，传入参数 i， 返回长度为 10 的数组，其中每个值为 i * index 
@@ -50,7 +48,7 @@ pytest all_test.py::test_lookup_num
 
 
 
-## Day3
+## Day3 matplotlib 画图
 
 使用 `pandas`读取 excel 文件， 并使用 matplotlib 画出折线图，其中 横坐标为 name， 纵坐标为 grade。
 
@@ -78,7 +76,27 @@ pytest all_test.py::test_plot_from_excel
 
 
 
+## Day4 两数之和
+
+给定一个整数数组 `nums` 和一个整数值 `target`, 请你找出在数组中找出为该值 `target` 的整数们，并返回它们的所有数组下标。
+**示例1**
+
+```
+输入：nums = [2,7,11,15], target = 9
+输出：[0,1]
+```
+
+**示例2**
+
+```
+输入：nums = [3,2,4] , target = 6
+输出：[1,2]
+```
 
 
+**示例3**
 
-
+```
+输入：nums = [3,3] , target = 6
+输出：[0, 1]
+```

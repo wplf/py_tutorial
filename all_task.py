@@ -10,12 +10,6 @@ def lookup_num(nums: List[int], target: int)->List[int]:
     #给定一个整数数组 `nums` 和一个整数值 `target`, 请你找出在数组中找出为该值 `target` 的整数们，并返回它们的所有数组下标。
     raise NotImplementedError('方法未实现')
 
-
-def two_sum(nums: List[int], target: int)->List[int]:
-    #给定一个整数数组 `nums` 和一个整数值 `target`, 请你找出在数组中找出为该值 `target` 的整数们，并返回它们的所有数组下标。
-    raise NotImplementedError('方法未实现')
-
-
 def plot_from_excel(filename: str):
     import matplotlib.pyplot as plt
     import pandas as pd
@@ -26,3 +20,7 @@ def plot_from_excel(filename: str):
     ## TODO
     # 显示图表
     plt.show()
+
+def two_sum(nums: List[int], target: int)->List[int]:
+    #给定一个整数数组 `nums` 和一个整数值 `target`, 请你找出在数组中找出为该值 `target` 的整数们，并返回它们的所有数组下标。
+    raise NotImplementedError('方法未实现')
