@@ -100,3 +100,13 @@ pytest all_test.py::test_plot_from_excel
 输入：nums = [3,3] , target = 6
 输出：[0, 1]
 ```
+
+# Day 5
+使用 git 向 py_tutorial 仓库添加文件 `Your_name.txt`, 可能使用到的命令有
+``` bash
+FORK # on website
+git status
+git add FILE
+git commit -m "commit_message"
+git push
+```
