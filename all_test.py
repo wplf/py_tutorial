@@ -42,3 +42,13 @@ def test_plot_from_excel():
     # plt.title("Grades by ID")
     # plt.xlabel("ID")
     # plt.ylabel("Grade")
+
+
+@pytest.mark.parametrize( 
+    "num, ans", [ 
+        (x, x % 2 == 0) for x in range(10)
+    ]
+)
+def test_check_even(num, ans):
+    assert check_even(num) == ans
+    

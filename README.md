@@ -2,7 +2,7 @@
 
 ## Day 1 创建列表
 
-创建长度为10的数组，传入参数 i， 返回长度为 10 的数组，其中每个值为 i * index 
+创建长度为10的数组，传入参数 i， 返回长度为 10 的数组，其中每个值为 i * index
 
 ```python
 # 样例1：
@@ -17,10 +17,8 @@ output: [0, 5, 10, 15, 20]
 测试命令
 
 ```python
-pytest all_test.py::test_create_array
+python -m pytest -k test_create_array
 ```
-
-
 
 ## Day 2 查找元素
 
@@ -43,15 +41,12 @@ pytest all_test.py::test_create_array
 **测试命令**
 
 ```
-pytest all_test.py::test_lookup_num
+python -m pytest -k test_lookup_num
 ```
-
-
 
 ## Day3 matplotlib 画图
 
 使用 `pandas`读取 excel 文件， 并使用 matplotlib 画出折线图，其中 横坐标为 name， 纵坐标为 grade。
-
 
 | ID  | Name    | Grade |
 |-----|---------|-------|
@@ -69,12 +64,10 @@ pytest all_test.py::test_lookup_num
 测试命令
 
 ```bash
-pytest all_test.py::test_plot_from_excel
+python -m pytest -k test_plot_from_excel
 ```
 
 ![image-20240612193611054](./images/grade-plot.png)
-
-
 
 ## Day4 两数之和
 
@@ -93,7 +86,6 @@ pytest all_test.py::test_plot_from_excel
 输出：[1,2]
 ```
 
-
 **示例3**
 
 ```
@@ -102,11 +94,29 @@ pytest all_test.py::test_plot_from_excel
 ```
 
 # Day 5
+
 使用 git 向 py_tutorial 仓库添加文件 `Your_name.txt`, 可能使用到的命令有
+
 ``` bash
 FORK # on website
 git status
 git add FILE
 git commit -m "commit_message"
 git push
+```
+
+# Day 6
+
+判断 一个数是否为偶数， 输入一个数，返回 true 或者 false，代表这个数是否为整数
+
+```
+输入：nums = 1
+输出：False
+```
+
+**示例2**
+
+```
+输入：nums = 2
+输出：True
 ```
