@@ -30,3 +30,7 @@ def check_even(num: int):
 
 def binary_one(num:int):
     raise NotImplementedError("方法未实现")
+
+
+def format_2f(num: float):
+    raise NotImplementedError("方法未实现")

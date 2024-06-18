@@ -61,3 +61,12 @@ def test_check_even(num, ans):
 )
 def test_binary_one(num, ans):
     assert binary_one(num) == ans
+
+
+@pytest.mark.parametrize( 
+    "num, ans", [ 
+        (x, f"{x:.2f}") for x in range(100)
+    ]
+)
+def test_format_2f(num, ans):
+    assert format_2f(num) == ans

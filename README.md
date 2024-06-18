@@ -123,8 +123,6 @@ git push
 
 测试命令： `python -m pytest -k check_even`
 
-
-
 ## Day 7 返回二进制1的个数
 
 返回一个正整数的二进制表示中包含1的个数
@@ -145,3 +143,22 @@ git push
 
 测试命令： `python -m pytest -k binary_one`
 
+## Day 8 将浮点数保留为2位小数
+
+返回一个浮点数的两位小数字符串形式
+
+### 示例1
+
+```
+输入：nums = 1
+输出："1.00"
+```
+
+### 示例2
+
+```python
+输入：nums = 1.5023
+输出："1.50"
+```
+
+测试命令： `python -m pytest -k format_2f`
