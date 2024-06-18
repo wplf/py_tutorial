@@ -93,7 +93,7 @@ python -m pytest -k test_plot_from_excel
 输出：[0, 1]
 ```
 
-# Day 5
+## Day 5 git 添加文件
 
 使用 git 向 py_tutorial 仓库添加文件 `Your_name.txt`, 可能使用到的命令有
 
@@ -105,7 +105,7 @@ git commit -m "commit_message"
 git push
 ```
 
-# Day 6
+## Day 6 判断偶数
 
 判断 一个数是否为偶数， 输入一个数，返回 true 或者 false，代表这个数是否为整数
 
@@ -114,9 +114,34 @@ git push
 输出：False
 ```
 
-**示例2**
+### **示例2**
 
 ```
 输入：nums = 2
 输出：True
 ```
+
+测试命令： `python -m pytest -k check_even`
+
+
+
+## Day 7 返回二进制1的个数
+
+返回一个正整数的二进制表示中包含1的个数
+
+### 示例1
+
+```
+输入：nums = 3
+输出：2
+```
+
+### 示例2
+
+```python
+输入：nums = 15
+输出：4
+```
+
+测试命令： `python -m pytest -k binary_one`
+

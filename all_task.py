@@ -26,5 +26,7 @@ def two_sum(nums: List[int], target: int)->List[int]:
     raise NotImplementedError('方法未实现')
     
 def check_even(num: int):
-    return num % 2 == 0
-    # raise NotImplementedError("方法未实现")
+    raise NotImplementedError("方法未实现")
+
+def binary_one(num:int):
+    raise NotImplementedError("方法未实现")

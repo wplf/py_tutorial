@@ -52,3 +52,12 @@ def test_plot_from_excel():
 def test_check_even(num, ans):
     assert check_even(num) == ans
     
+
+
+@pytest.mark.parametrize( 
+    "num, ans", [ 
+        (x, x.bit_length()) for x in range(100)
+    ]
+)
+def test_binary_one(num, ans):
+    assert binary_one(num) == ans
